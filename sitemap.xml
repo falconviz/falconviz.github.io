@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+  <url>
+    <loc>http://www.falconviz.com/blog/2014/02/01/yet-another-post/</loc>
+    
+    <lastmod>2014-02-01T21:04:10-08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/blog/2014/01/28/flying-with-styles/</loc>
+    
+    <lastmod>2014-01-28T20:39:46-08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/blog/2013/12/21/one-sunny-day/</loc>
+    
+    <lastmod>2013-12-21T20:04:19-08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/blog/2013/12/01/in-murcia-dot-dot-dot/</loc>
+    
+    <lastmod>2013-12-01T23:04:55-08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/blog/2013/11/01/flying-in-the-air/</loc>
+    
+    <lastmod>2013-11-01T20:04:44-07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/blog/2013/10/01/another-post/</loc>
+    
+    <lastmod>2013-10-01T12:04:04-07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/blog/2013/09/11/flying-drones-dot-dot-dot/</loc>
+    
+    <lastmod>2013-09-11T18:04:36-07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://www.falconviz.com/about-us.html</loc>
+    <lastmod>2014-11-21T07:57:59-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/blog_</loc>
+    <lastmod>2014-11-21T07:57:59-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/contact.html</loc>
+    <lastmod>2014-11-21T07:57:59-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/blog/archives/</loc>
+    <lastmod>2014-11-21T07:57:59-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/</loc>
+    <lastmod>2014-11-21T07:57:59-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/services.html</loc>
+    <lastmod>2014-11-21T07:57:59-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/thank-you.html</loc>
+    <lastmod>2014-11-21T07:57:59-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/countdown/plugin/countdownBasic.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/fancybox/demo/iframe.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/fancybox/demo/index.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/flexslider/demo/basic-carousel.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/flexslider/demo/carousel-min-max.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/flexslider/demo/fonts/webfonts/geo-medium/svg/svg_test.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/flexslider/demo/fonts/webfonts/geo-regular/svg/svg_test.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/flexslider/demo/fonts/webfonts/geo-semibold/svg/index.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/flexslider/demo/index.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/flexslider/demo/thumbnail-controlnav.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/flexslider/demo/thumbnail-slider.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/flexslider/demo/video.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-01-responsive.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-02A-fullwidth.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-02B-fullwidth.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-03-simple-double.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-04-API.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-05-shuffle.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-06-transparent.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-07-stop-at-4th-slide.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-08-one-slide-only.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-09-FullSlideVideo-html5-vimeo-youtube.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-10-Hide-Captions.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-11-Colored-Background.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-12-Thumbnails.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-13-FirstSlideDifferentStart.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-14-LazyLoad.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-15-Aligns.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-16-FullScreen.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-17-FullScreen-With-Offset.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/example-18-Html5-Vimeo-Youtube.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/plugins/revolution_slider/transition-preview.html</loc>
+    <lastmod>2014-01-08T21:40:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/projects.html</loc>
+    <lastmod>2014-11-20T12:05:07Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.falconviz.com/team.html</loc>
+    <lastmod>2014-11-20T12:04:26Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>

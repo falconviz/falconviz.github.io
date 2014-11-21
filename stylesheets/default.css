@@ -1,0 +1,52 @@
+/*
+Syntax error: Invalid CSS after "    color:": expected pseudoclass or pseudoelement, was " #72c02c"
+        on line 3 of /Users/neshmi/code/fvbw/sass/default.scss
+
+1: /Users/neshmi/code/fvbw/sass/default.scss
+
+Backtrace:
+/Users/neshmi/code/fvbw/sass/default.scss:3
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/scss/parser.rb:1146:in `expected'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/scss/parser.rb:1084:in `expected'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/scss/parser.rb:1066:in `expr!'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/scss/parser.rb:794:in `pseudo'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/scss/parser.rb:678:in `simple_selector_sequence'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/scss/parser.rb:646:in `_selector'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/scss/parser.rb:619:in `selector'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/scss/parser.rb:609:in `selector_sequence'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/scss/parser.rb:528:in `ruleset'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/scss/parser.rb:553:in `block_child'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/scss/parser.rb:543:in `block_contents'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/scss/parser.rb:82:in `stylesheet'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/scss/parser.rb:27:in `parse'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/engine.rb:342:in `_to_tree'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/engine.rb:315:in `_render'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/engine.rb:262:in `render'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/commands/update_project.rb:45:in `perform'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/bin/compass:44:in `call'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/bin/compass:23:in `load'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/bin/compass:23:in `<main>'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/bin/ruby_executable_hooks:15:in `eval'
+/Users/neshmi/.rvm/gems/ruby-2.0.0-p247/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"    color:\": expected pseudoclass or pseudoelement, was \" #72c02c\"\A         on line 3 of /Users/neshmi/code/fvbw/sass/default.scss\A \A 1: /Users/neshmi/code/fvbw/sass/default.scss"; }
