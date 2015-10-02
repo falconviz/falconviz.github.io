@@ -1,0 +1,39 @@
+##############################################################################
+#                                                                            #
+#                            ArchField C++                                   #
+#                           Version 1.0.7                                    #
+#                 http://www.falconviz.com/archfield/                        #
+#                                                                            #
+#           Copyright 2015 Neil Smith <neil.smith@kaust.edu.sa>              #
+#                                                                            #
+##############################################################################
+
+
+
+License & disclaimer.
+
+    Copyright 2014-2015 Neil Smith and King Abdullah University of Science and
+    Technology
+
+    ArchField is free for personal, non-profit, or academic use. You may 
+    redistribute Archfield as long as you make no modifications. 
+    Commercial use of this tool is not permitted, and please contact
+    Neil Smith if you are interested in commercial licensing. 
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+    OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+    SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+    LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+    THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+#########################################################################
+
+Please cite ArchField's latest publication:
+
+N. Smith, M. Howland, T. Levy, “Digital Archaeology Field Recording in the 4th  Dimension: ArchField C++ a 4D GIS for Digital Field Work,” In Proceedings of Digital  Heritage International Congress (Digital Heritage) 2015, September 28-October 2,  2015.
