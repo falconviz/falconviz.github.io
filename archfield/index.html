@@ -8,7 +8,7 @@
 	font-weight: bold;
 	font-size: 60px;
 	text-align: center;
-	color: #093;
+	color: #0C3;
 }
 .sections {
 	font-weight: bold;
@@ -22,15 +22,15 @@
 <p class="titlecClass">ArchField C++</p>
 <p><img src="ArchFieldScreenShot.jpg" width="1000" alt="screenShot" /></p>
 <p><strong>ArchField C++</strong> is a stand-alone software for recording and managing field excavations and survey in Digital Heritage. It enables real-time digital GIS 3D Top Plan production within a rendering engine designed for visualizing massive 3D datasets. ArchField directly connects to Total Stations and our RTK GPS units to record sub-centimeter measurements for artifacts, scanning markers, loci boundaries, and camera positions. </p>
-<p>Archfield C++ is free to use for non-commercial and educational use (see <a href="LICENSE.txt">license</a>). It has been developed at the Visual Computing Center (VCC), King Abdullah University of Science and Technology, Saudi Arabia. If you would like to use ArchField in your research or for a publication, please cite our latest paper: </p>
+<p>Archfield C++ is free to use for non-commercial and educational use (see <a href="LICENSE.txt">license</a>). It has been developed at the Visual Computing Center (VCC), King Abdullah University of Science and Technology, Saudi Arabia by Dr. Neil Smith (neil.smith@kaust.edu.sa). If you would like to use ArchField in your research or for a publication, please cite our latest paper: </p>
 <p>N. Smith, M. Howland,  T. Levy, &quot;Digital Archaeology Field Recording in the 4th  Dimension: ArchField C++ a 4D GIS for Digital Field Work,&quot; In Proceedings of Digital  Heritage International Congress (DigitalHeritage) 2015, September 28-October 2,  2015.</p>
 <p class="sections">Prerequisites:</p>
 <p>Windows 64-bit Operating System</p>
 <p>Minimum: 4GB RAM</p>
 <p>CouchDB (if you would like to integrate a server database in your project): <a href="http://couchdb.apache.org/">http://couchdb.apache.org/</a></p>
 <p class="sections">Download:</p>
-<p><strong>ArchField C++ v. 1.05 (changelog)</strong></p>
-<p><strong>Windows 64bit:</strong> <a href="downloads/win_x64/archfield_setup_105.exe">Download</a></p>
+<p><strong>ArchField C++ v. 1.07 (<a href="changelog.txt">changelog</a>)</strong></p>
+<p><strong>Windows 64bit:</strong> <a href="downloads/win_x64/archfield_setup_107.exe">Download</a></p>
 <p><strong>Ubuntu 64-bit:</strong> Coming Soon!</p>
 <p><strong>OSX 64-bit:</strong> Coming Soon!</p>
 <p class="sections">Installation Guide:</p>
@@ -41,7 +41,7 @@
 <p>Comming Soon!</p>
 <p class="sections">FAQ:</p>
 <p>What formats can be loaded into Archfield?</p>
-<p>-ArchField can load OBJ, PTS, PLY (Binary and Ascii), XYZ, XYB. Currently it does not handle well data that has double precision coordinates (e.g. 3750000.353, 753000.121). Also if you want your data to be measured it  must be properly scaled (1.0  = 1.0 meter).</p>
+<p>-ArchField can load OBJ, PTS, PLY (Binary and Ascii), XYZ, XYB. Currently it does not handle well data that has double precision coordinates (e.g. 3750000.353, 753000.121). Use the PLY-&gt;OSGA converter for Pointclouds to remove UTM coordinates. Also if you want your data to be measured it  must be properly scaled (1.0  = 1.0 meter).</p>
 <p>What does Save Project do?</p>
 <p>-It will save all layers loaded and bookmarks to a .prj file on the harddrive. You can always reload all your data from you create prj file. </p>
 <p>How do I use the measure tool?</p>
