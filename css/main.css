@@ -30,6 +30,10 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
+
+.img-circle {
+    border-radius: 50%;
+}
 #kouterContainer {
 	width: 100%;
 }
@@ -252,6 +256,27 @@ a:active {
 	display: block;
 	margin-top:34px;
 	}
+	
+	.knewstitle{
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 28px;
+	color: #12bd26;
+	text-transform: uppercase;
+	font-weight: normal;
+	display: block;
+	margin-top:10px;
+	}
+	
+	
+.knewsdate{
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 16px;
+	color: #CCCCCC;
+	font-weight: normal;
+	display: block;
+	margin-top:30px;
+	}
+		
 .kmembertitle{
 	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
 	font-size: 18px;
