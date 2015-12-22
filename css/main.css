@@ -329,6 +329,17 @@ a:active {
 	width: 280px;
 	text-align: center;
 }
+#kteam #kfounders #knewstext {
+
+	float: left;
+	display:block;
+	padding: 0;
+	margin: 0;
+	
+	width: 800px;
+	text-align: left;
+}
+
 /****************Team Page End****************/	
 		
 /***************************** Footer ****/
