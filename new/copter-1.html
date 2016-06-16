@@ -9,7 +9,7 @@
     <!-- X5 <base href="localhost/falconviz/" >-->
     
     <!-- InstanceBeginEditable name="doctitle" -->
-    <title>FalconViz - Industries - Topographical Survey</title>
+    <title>Drones</title>
     <!-- InstanceEndEditable -->
     <script src="assets/jquery/jquery-2.2.3.min.js"></script>
     <script src="assets/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
@@ -218,147 +218,181 @@
 
 <!-- InstanceBeginEditable name="main" -->
 
- <!--------------------------------------------------------- Banner -->
+ <!-- ------------------------------------------------------- Banner -->
 <div id="banner_container-fluid" class="container-fluid no-gutter">
 	<div class="row">
-  		<img src="images/topography_banner.jpg" class="inner_banner no-gutter" alt="">        
+  		<img src="images/ban-dron-1.jpg" class="inner_banner no-gutter" alt="">        
     </div>
 </div>
 
 <div id="inner_page_title" class="container">
-	<div class="inner_page_title"><h1>Topographical Survey</h1></div>
+	<div class="inner_page_title"><h1>FalconViz FX4 </h1></div>
 </div>
 
-<!--------------------------------------------------------- Breadcrumb -->
+<!-- ------------------------------------------------------- Breadcrumb -->
 <div class="container" id="breadcrumb">
 	<a href="index.html">Home</a>
     <span class="slash">&nbsp;/&nbsp;</span>
-    <a href="index.html">Industries</a>
-     <span class="slash">&nbsp;/&nbsp;</span>
-    <span class="current_bread">Topographical Survey</span>
+    <a>Drones</a>
+    <span class="slash">&nbsp;/&nbsp;</span>
+    <span class="current_bread">FX4</span>
 </div>
 
 <!-- ------------------------------------------------------- Main  -->
 <div id="main_sec" class="container">
 	<div class="row">
-        <div class="col-sm-8">
+    	  <img src="images/drone-1.jpg" class="img-responsive center-block" alt=""> 
+    </div>
+	
+  <div class="row">
+        <div class="col-sm-7">
             <div class="inner-main-content">
-           FalconViz specializes in aerial based topographical survey. The survey employs our hexacopters and fixed wing fleet to conduct a series of autonomous flights covering the entire designated area. Unlike traditional survey which only collect a small sample of measurements, our UAVs capture a complete digital representation of the designated area accurate up to 0.5 cm in X,Y,Z. Every feature and detail is precisely captured in our highly detailed orthorectified images, 3D  pointcloud, 3D Model and final As-built 3D CAD layers. The best comparison of our scanning technique is to LiDAR high definition scanning (HDS), however unlike this technology there are no gaps, holes, or occluded surfaces. There are no registration errors and we are able to preserve the true RGB color of the captured area. Our final deliverable is not a cloud of useless points, but a CAD model that you can measure and analyze in professional software such as Civil AutoCAD and ESRI’s ArcGIS. 
-The following are the standard deliverables requested by our customers:
-<br><br>
-
-What is our accuracy and how do we Ground Truth our results?<br>
-Our current limitation is time not accuracy. Our clients need no more than 0.5cm to 5cm accuracy depending on the demands of the project. We always verify our scans by measuring ground control points (GCP) using sub-centimeter Differential GPS or 2” Total Stations. We have designed an automated marker tracking system that allows us to identify at the sub-pixel level the saddle point of our measured markers. Our field crew consists of our drone pilots and geodesic survey engineers who independently verify and check the aerial surveys performed in the field.
+           The FalconViz FX4 Security & Emergency Response drone delivers a new precedent for autonomous surveillance. The FX4 is optimized for agility, endurance and ruggedness to handle the toughest environments. The high powered and efficient propulsion system allows for 15m/s flights covering a 1-2km radius. The automatic take-off and landing system allows for the FX4 to be launched from a command center and arrive at its point of interest within minutes. <br>
 <br>
+The ground breaking propulsion system allows for 30 minute flight times which is 2X the average flight time of most drones. The FX4 payload allows both day and night surveillance with both a 8K Day camera (42MP) and Flir Thermal IR night camera. The sturdy and efficient gimbal system allows for smooth video and image capture even in windy conditions. <br>
 <br>
-What about time and repeatability?<br>
-
-The biggest advantage of using UAVs is that they are autonomous. Once we have uploaded a mission to our UAVs they can repeat that same mission over and over again. Typical speeds for our hexacopters are 5-6m/s and 11-15m/s for our Fixedwings. By combining two UAVs at a time with efficiently designed flight missions and high endurance power systems, we are able to capture large areas incredibly fast. Our capacity are 500,000 m² per day for our hexacopters and up to 20km² per day for our fixed-wing drones.
-<br>
-<br>
-Our objective is to process the results as fast as we acquire it per day. This has required us to move to parallelizing all our processing workflows both in the cluster of workstations we have running 24/7 and our large team of CAD engineers and GIS specialists. Our team works together to divide and conquer the digitization of the massive areas per day using our in house digitization software and AutoCAD/RIVET/ArcGIS/3DSMax.
-
+The FX4 is directly integrated with the FalconViz Ground Control Station that can be installed within any operating system so that responses can be coordinated between the security team and the drone. The FX4 can be automatically dispatched  to exact GPS locations of any security emergency or threat within a 1-2km radius. Once the FX4 arrives on the scene it can stream back live video to the command center during day or night.
+           
+        <br><br><br><br>
+        <div class="row>">
+            <img src="images/cam-1.jpg" class="col-xs-5 col-xs-push-1 img-responsive" alt="">
+            <img src="images/cam-2.jpg" class="col-xs-5  col-xs-push-1 img-responsive" alt=""><br>
+        </div>
+        <br><br>
         
+        <div class="row>">
+            <div class="col-xs-5 col-xs-push-1 text-center">
+                Raytrix 42MP 8K Camera 
             </div>
-            
-            <!-- ------------------------------------------------------------------------------- Deliverables --->
-    <div class="row" id="deliverables_head">
-        <div class="col-sm-12">
-            <h3>Deliverables</h3>
-        </div>
-     </div>
-     
-    <div class="row" id="deliverables">
-        <div class="col-sm-6">
-            <ul>
-                <li>High resolution images and Master Maps (geotiff format for use in ArcGIS)</li>
-                <li>3D survey points in AutoCAD/ESRI Shapefile</li>
-                <li>TIN mesh (dxf/obj/ply, ESRI TIN) </li>                
-                 <li>Gridded ASC DTM (0.5x0.5 m cell resolution, ESRI Raster Format) </li>
-            </ul>
-        </div>
-        
-        <div class="col-sm-6">
-            <ul>
-               <li>Digital Elevation Model (DEM)</li>
-                <li>1m 3D contour lines (dxf/dwg-AutoCAD/ESRI Shapefile)</li>
-                <li>3D Flythrough</li>
-                <li>3D Visualization in AerialSfM Lite and FalconVR</li>
-            </ul>
-        </div>
-    </div>
- </div>
-         <div class="col-sm-4">
-            <div class="points">
-                <ul>
-                    <li>Accuracy up to 0.5cm in X,Y,Z</li>
-                    <li>500,000 m2 / 20 Km2 per day</li>
-                    <li>No gaps, holes, or occluded surfaces</li>
-                    <li>Sub-centimeter ground control verification points</li>
-                    <li>Complete digital capture representation of designated area</li>
-                </ul>    
+            <div class="col-xs-5 col-xs-push-1 text-center">
+                FLIR VUE Thermal Camera <br><br><br><br>
+
             </div>
-            
-            <div id="getQuote-but">GET QUOTE</div>
         </div>
+
+        <div class="row">
+        	<div class="col-xs-12 text-center">
+        		<video  width="80%" controls >
+                	<source src="images/cop-5.mp4" type="video/mp4" />
+                </video>
+             </div>
+        </div>
+        <br>
+		<br>
+
 	</div>
-    
-     <!-- ------------------------------------------------------------------------------- Clients --->
-     <div class="row" id="clients_head">
-        <div class="col-sm-12 ">
-            <h3>Clients</h3>
-        </div>
-     </div>
+</div>
      
-    <div class="row" id="clients">
-        <div class="col-sm-2  col-xs-6">
-            <img src="images/kaust-logo-400.jpg" alt="KAUST">
-        </div>
-        <div class="col-sm-2 col-xs-6">
-            <img src="images/hyder_logo_400.jpg" alt="Hyder Consultants">
-        </div>
-        <div class="col-sm-2 col-xs-6">
-            <img src="images/lafrag_logo_400.jpg" alt="LAFRAG">
-        </div>
-        <div class="col-sm-2 col-xs-6">
-            <img src="images/SEC_logo_400.jpg" alt="Saudi Electricity Company">
-        </div>
-        <div class="col-sm-2 col-xs-6">
-            <img src="images/aecom_logo_400.jpg" alt="AECOM">
-        </div>
-     </div>
+ <div class="col-sm-5">
+ <h2>Technical Specifications</h2>
+   <table border="0" cellspacing="0" cellpadding="0" width="450" class="table table-striped table-condensed">
+     <tr>
+       <td width="157" nowrap valign="bottom">Specifications</td>
+       <td width="294" nowrap valign="bottom">Details</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Diagonal Wheelbase</td>
+       <td width="294" nowrap valign="bottom">780mm</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Aircraft Dimensions</td>
+       <td width="294" nowrap valign="bottom">1.05 x 1.05 x 0.4 meters</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Motor Model</td>
+       <td width="294" nowrap valign="bottom">KDE3520XF 400KV</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Propeller Model</td>
+       <td width="294" nowrap valign="bottom">KDE 18.5&quot; x 6.3 Folding</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Weight </td>
+       <td width="294" nowrap valign="bottom">5.1 kg</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Weight with Batteries</td>
+       <td width="294" nowrap valign="bottom">7.6 kg</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Payload Capacity</td>
+       <td width="294" nowrap valign="bottom">4.5 kg</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Day Camera System</td>
+       <td width="294" nowrap valign="bottom">- Raytrix C42 8K (42MP) camera<br>
+- FPV Analog Camera</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Night-Vision Camera</td>
+       <td width="294" nowrap valign="bottom">FLIR VUE Thermal  </td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Integrated Gimbal</td>
+       <td width="294" nowrap valign="bottom">3-axis (&gt;720° yaw)</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Digital Video Stream</td>
+       <td width="294" nowrap valign="bottom">1080P (&lt;1km)</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Analog Video Stream</td>
+       <td width="294" nowrap valign="bottom">480p (&gt;5km)</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Video Capture</td>
+       <td width="294" nowrap valign="bottom">1080P (60fps)<br>2K (60fps)<br>4K (30fps)<br>8K (7fps)</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Image Capture</td>
+       <td width="294" nowrap valign="bottom">7716 x 5364 pixels (42MP)</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Battery Capacity</td>
+       <td width="294" nowrap valign="bottom">22000 mAh</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Battery Voltage</td>
+       <td width="294" nowrap valign="bottom">22.2v (6S)</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Battery Weight</td>
+       <td width="294" nowrap valign="bottom">2.5 kg</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Max Speed</td>
+       <td width="294" nowrap valign="bottom">15m/s</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Hovering Time</td>
+       <td width="294" nowrap valign="bottom">33.6 min</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Mission Time</td>
+       <td width="294" nowrap valign="bottom">30.6 minutes</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Mission Range</td>
+       <td width="294" nowrap valign="bottom">1km (Radius+RTH)<br>
+2km (Arrive &amp; Hover)</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Telemetry Range</td>
+       <td width="294" nowrap valign="bottom">2km</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Live Video Range</td>
+       <td width="294" nowrap valign="bottom">5km</td>
+     </tr>
+     <tr>
+       <td width="157" nowrap valign="bottom">Radio Range</td>
+       <td width="294" nowrap valign="bottom">15km</td>
+     </tr>
+   </table>
+ </div>
     
-    <!-- ------------------------------------------------------------------------------- bottom images --->
-    <div class="row" id="const_bootom" >
-    	<div class="col-sm-3  col-xs-6">
-        	<div>
-            	<img class="services_img" src="images/topography-1.jpg" alt="topography">
-            </div>
-				<h3>Part of our skillful surveying team</h3>
-        </div>
-        
-        <div class="col-sm-3 col-xs-6">
-        	<div>
-            	<img class="services_img" src="images/topography-2.jpg" alt="topography">
-            </div>
-				<h3>Here is what a typical roundabout looks like after a reconstruction</h3>
-        </div>
-        
-        <div class="col-sm-3 col-xs-6">
-        	<div>
-            	<img class="services_img" src="images/topography-3.jpg" alt="topography">
-            </div>
-				<h3>A closeup of a raw pointcloud generated from our survey</h3>
-        </div>
-        
-        <div class="col-sm-3 col-xs-6">
-        	<div>
-            	<img class="services_img" src="images/topography-4.jpg" alt="topography">
-            </div>
-				<h3>After automatic processing, as-built drawings are created by CAD & GIS team </h3>
-        </div>
-    </div>
-    
+</div>
+   
 </div>
 
 

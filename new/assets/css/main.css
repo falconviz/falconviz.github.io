@@ -23,6 +23,10 @@
 
 /* GLOBAL STYLE
 -------------------------------------------------- */
+html {
+	 font-size: 16px;
+}
+
 body {
 	/*background: #f0f0f0;*/
 	font-family: go-light ;
@@ -67,16 +71,36 @@ body {
 	right: 0;
 }
 #top-search {
-	margin-top:12px;
+	margin-top:1px;
 	width:300px;
+}
+/* ****************************************************** top search **** */
+.cse .gsc-control-cse, .gsc-control-cse {
+    padding: 0.2em !important;
+    width: auto;
+}
+
+input.gsc-search-button-v2 {
+    width: auto !important;
+    margin-top: 0px !important;
+}
+
+.gsc-control-cse {
+    background-color: #f8f8f8 !important;
+    border:none !important;
+}
+
+.gsib_a {
+    padding-top: 0px !important;
+    padding-left: 10px !important;
 }
 
 #top-search input{
-	/*	display: none;*/
-	padding:4px;
+	/*	display: none;
+	padding:4px;*/
 	height:26px;
 	color:rgba(98,97,97,1.00);
-	padding-left:0.8em;
+/*	padding-left:0.8em;*/
 }
 #top-search button{
 	height:26px;
@@ -843,7 +867,7 @@ input[placeholder], [placeholder], *[placeholder] {
 #clients_head h3{
 	margin-bottom:5px;
 }
-/******-------------------------------------------------------------- Get Quotation ---- */
+/* --------------------------------------------------------------- Get Quotation ---- */
 input[type=text] {
 	color:#707473;
 }
@@ -859,4 +883,89 @@ input[type=text] {
 }
 :-moz-placeholder { /* Firefox 18- */
   color: #707473;
+}
+
+/* --------------------------------------------------------------- Clients ---- */
+
+#clients_names{
+	color:#fff;
+	background-color:#139F4C;
+	width:100%;
+	padding-top:1.5em;
+	padding-bottom:1em;
+}
+#clients_names li{
+	margin-bottom:0.2em;
+	margin-top:0.2em;
+}
+
+/* --------------------------------------------------------------- About ---- */
+
+.mission {
+	background:#139F4C;
+	color:#fff;
+	padding:1em;
+	font-family:go-Light;
+	font-size:1em;
+	line-height:1.4em;
+	margin-bottom:1em;
+	margin-top:1em;
+	padding-left:1.5em;
+	padding-right:1.5em;
+}
+
+.mission h2{
+	margin-top:0.2em;
+	margin-bottom:0.1em;
+}
+
+.who-industry {
+	background-color:#979797;
+}
+
+/* --------------------------------------------------------------- Contact ---- */
+.address li{
+	height:1.7em;
+}
+
+
+.address span{
+	display:inline-block;
+	margin-right:0.5em;
+}
+
+.add-left{
+	margin-left:2em;
+}
+
+#cont_form {
+		background-color:#ddd;
+		padding:1em;
+		margin-top:3em;
+		padding-top:2 em;
+		margin-bottom:3em;
+}
+
+#cont-data input {
+	margin-bottom:1.2em;
+	margin-top:.4em;
+}
+
+#cont_form input[placeholder], #cont-data  [placeholder]  {
+	color: #666 !important;
+}
+
+#cont-data .cd {
+	text-align:right;
+	line-height:1.7em;
+	
+	margin-top:0.9em;
+}
+
+#cont-submit {
+	margin-top:1em;
+}
+
+.todo {
+	color:red !important;
 }
