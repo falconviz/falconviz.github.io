@@ -40,6 +40,10 @@ body {
 	margin: 0 !important;
 }
 
+/* ---------------------------------------------- fix social icon shadow -- */
+.hvr-float-shadow:before {
+	left:20% !important;	
+}
 
 /* MEGAMENU STYLE
 -------------------------------------------------- */
@@ -71,7 +75,7 @@ body {
 	right: 0;
 }
 #top-search {
-	margin-top:1px;
+	/*margin-top:1px;*/
 	width:300px;
 }
 /* ****************************************************** top search **** */
