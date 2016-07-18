@@ -143,9 +143,7 @@ new ScrollMagic.Scene({
 //-------------------------------------------------------------------------------------- Set height of News, Project, ..
 	
     var h= $("#inner-news").width()*0.6;
-	console.log(h);
 	$("#inner-news").css('height', h);
-	console.log($("#inner-news").height());
 	
 	$("#project #inner-project").css('height', h);
 	$("#video").css('height', h);
@@ -164,6 +162,7 @@ new ScrollMagic.Scene({
 		}else{
 			$target.hide(500);
 			isOpen = false;
+			return false;
 		}
 	});
 	
@@ -177,13 +176,13 @@ new ScrollMagic.Scene({
 		var $frame = $("#viVideo");
 		
 		// saves the current iframe source
-			var vidsrc = $frame.attr('src');
-			
-			// sets the source to nothing, stopping the video
-			$frame.attr('src',''); 
-			
-			// sets it back to the correct link so that it reloads immediately on the next window open
-			$frame.attr('src', vidsrc);
+		var vidsrc = $frame.attr('src');
+		
+		// sets the source to nothing, stopping the video
+		$frame.attr('src',''); 
+		
+		// sets it back to the correct link so that it reloads immediately on the next window open
+		$frame.attr('src', vidsrc);
 	});
 		
 		
@@ -232,5 +231,11 @@ new ScrollMagic.Scene({
 
 	tween = TweenMax.to(box, 20, {x:"-50%", y:"-50%", width:"1900px", height:"1900px", repeat:-1, yoyo:true, repeatDelay:2, ease:Linear.easeNone});
 
+
+
+
    
 });
+
+
+
