@@ -1,0 +1,611 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/temp.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Falconviz, KSA, drones, point cloud, 3D, surveying">
+    <meta name="description" content="Falconviz description.">
+    <!-- X6 <base href="localhost/falconviz/" >-->
+    
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>FalconViz</title>
+    <script src="assets/jssor/jssor.slider.mini.js"></script>
+    <!-- InstanceEndEditable -->
+    <script src="assets/jquery/jquery-2.2.3.min.js"></script>
+    <script src="assets/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <!--<script src="../assets/jssor/jssor.slider.mini.js"></script>-->
+    <script src="assets/scrollMagic/plugins/greensock/TweenMax.min.js"></script>
+    <script src="assets/scrollMagic/ScrollMagic.min.js"></script>
+    <script src="assets/scrollMagic/plugins/animation.gsap.min.js"></script>
+	<script src="assets/scrollMagic/plugins/debug.addIndicators.min.js"></script>
+    <script src="assets/main.js"></script>      
+    <!--<script src="../assets/lightbox.min.js"></script>-->
+
+	<link href="assets/css/hover.css" rel="stylesheet" type="text/css">
+    <link href="assets/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+    
+	<link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+</head>
+
+<body>
+<nav class="navbar navbar-default megamenu">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-collapse">
+          <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+          <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img src="images/logo.png" width="220" alt="FalconViz logo"></a> 
+    </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="main-collapse">
+      <ul class="nav navbar-nav" id ="main_menu">
+        <li class="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Services 
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu" >
+            <li><a href="srv_surveying.html">Surveying & Mapping</a></li>
+            <li><a href="#">Inspection & Monitoring</a></li>
+                    <li><a href="#">Surveillance</a></li>
+                    <li><a href="#">HD Still Images</a></li>
+                    <li><a href="#">HD Videos</a></li>
+            <li><a href="#">Visualization & 3D Modeling</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Industries 
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+                <li><a href="construction.html">Construction & Real Estate </a></li>
+                <li><a href="topography.html">Topographical Survey</a></li>
+                <li><a href="corridor.html">Corridor Survey</a></li>
+            	<li><a href="mining.html">Mining & Aggregate Assessments</a></li>
+                <li><a href="heritage.html">Cultural Heritage</a></li>
+                <li><a href="flood.html">Flood Modelling & Analysis</a></li>
+            	<li><a href="slum.html">Land Abuse & Slum Development</a></li>
+<!--            	<li><a href="soon.html">Geology & Prospection</a></li>
+                <li><a href="soon.html">Oil & Gas</a></li>
+                <li><a href="soon.html">Agriculture</a></li>
+                <li><a href="soon.html">Maintenance</a></li>-->
+                <li><a href="soon.html">Urban Planning & Architecture</a></li>
+<!--            <li><a href="soon.html">Marketing & Events</a></li>
+                <li><a href="soon.html">Forensics & Investigation</a></li>-->
+                <li><a href="soon.html">Disaster Releif</a></li>
+          </ul>
+        </li>
+        <li class="dropdown megamenu-fw">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Drones 
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu megamenu-content" role="menu">
+                <li>
+                  <div class="row">
+                    <div class="col-sm-1"></div>
+                    
+                    <div class="col-sm-2">
+                     <!-- <ul class="nav tab-hover .nav-stacked .nav-justified">-->
+                      <ul class="nav nav-pills .nav-stacked .nav-justified">
+                        <li class="active"><a data-toggle="tab" href="#menu1">Hexacopter</a></li>
+                        <li><a data-toggle="tab" href="#menu2">Quadcopter</a></li>
+                        <li><a data-toggle="tab" href="#menu3">Heavy lifting</a></li>
+                        <li><a data-toggle="tab" href="#menu4">Fixed wing</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-7">
+                      <div class="tab-content">
+                        <div id="menu1" class="tab-pane fade in active">
+                          <div class="col-sm-4">
+                            <h3>Hexacopter</h3>
+                           Portability and reliability   <br><br><br>
+
+							<a href="copter-1.html" class="btn btn-primary bottom-column" role="button">Learn more</a>
+                          </div>
+                          <figure class="product-pic col-sm-8">
+                            <a href="#"><img dui-pc-data-layzr="images/drone1.jpg" src="images/drone1.jpg"></a>
+                          </figure>
+                        </div>
+                        
+                        <div id="menu2" class="tab-pane fade">
+                            <div class="col-sm-4">
+                                <h3>Quadcopter</h3>
+                               VISIONARY INTELLIGENCE<br><br><br>
+                               <a href="copter-1.html" class="btn btn-primary bottom-column" role="button">Learn more</a>
+                          </div>
+                              <figure class="product-pic col-sm-8">
+                                <a href="#"><img dui-pc-data-layzr="images/drone2.jpg" src="images/drone2.jpg"></a>
+                               
+                              </figure>
+                        </div>
+                        
+                        <div id="menu3" class="tab-pane fade">
+                            <div class="col-sm-4">
+                                <h3>Fixed wing</h3>
+                                 Mass capturing<br><br><br> 
+                                 <a href="#" class="btn btn-primary bottom-column" role="button">Learn more</a>
+                          </div>
+                              <figure class="product-pic col-sm-8">
+                                <a href="#"><img dui-pc-data-layzr="images/drone3.jpg" src="images/drone3.jpg"></a>
+                               
+                              </figure>                  
+                        </div>
+                        
+                        <div id="menu4" class="tab-pane fade">
+                            <div class="col-sm-4">
+                                <h3>Heavy Lifting</h3>
+                                 POWERFUL FLIGHT<br><br><br>
+                                 <a href="#" class="btn btn-primary bottom-column" role="button">Learn more</a>
+                          </div>
+                              <figure class="product-pic col-sm-8">
+                                <a href="#"><img dui-pc-data-layzr="images/drone4.jpg" src="images/drone4.jpg" alt=""></a>
+                                
+                              </figure>                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About 
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+                <li><a href="who.html">Who we are</a></li>
+                <!--<li><a href="#">Events and News</a></li>-->
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">En 
+            <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">English</a></li>
+                <li><a href="#">عربى</a></li>
+              </ul>
+        </li>
+      </ul>
+      
+      <span class="glyphicon glyphicon-search" aria-hidden="true" id="top-search-icon"></span>
+      <form class="navbar-form navbar-right" role="search" id="top-search" action="search.html">
+        <div class="form-group">
+       <script>
+		  (function() {
+			var cx = '009165951042105012354:-7of4njhh_a';
+			var gcse = document.createElement('script');
+			gcse.type = 'text/javascript';
+			gcse.async = true;
+			gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(gcse, s);
+		  })();
+		</script>
+		<gcse:search></gcse:search>
+
+        <!--  <input type="text" class="form-control" placeholder="Search">       
+          <input type="text" name="q" id="tipue_search_input" autocomplete="off" required placeholder="Search"  class="form-control">--> 
+        </div>
+       <!-- <button type="submit" class="btn btn-default">Search</button>-->
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<!-- InstanceBeginEditable name="main" -->
+
+  <!--------------------------------------------------------- Banner -->
+<div id="banner_container" class="container-fluid">
+  		<div class="row">
+             
+              <!--  Slider Begin -->
+    			<div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 960px; height: 340px; overflow: hidden;">
+                
+                 <!-- Slides Container -->
+            		<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 960px; height: 340px; overflow: hidden;">
+            
+					<div>
+                    	<img u="image" src2="images/banner/ban-3.jpg" alt=""/>
+                         <div data-u="caption" data-t="0" class="caption" id="cap-1" style=" left: -50px; line-height: 30px;">
+                            <h2>High Definition </h2>
+                            <p class="sub">Daylight aerial still and panoramic images</p>
+                            <a href="#" class="more">Learn more<span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                   		</div>
+                    </div>
+                    
+        			<div>
+                    	<img u="image" src2="images/banner/ban-1.jpg" alt=""/>
+                        <div data-u="caption" data-t="1" class="caption" id="cap-2" style="top: 20px; left: 200px;  line-height: 30px; opacity:0">
+                        	<h2>Most accurate </h2><p class="sub">Volumetric assessment solution for mining industry</p>
+                             <a href="#" class="more">Learn more
+                             	<span class="glyphicon glyphicon-chevron-right"></span>
+                             </a>
+                   		</div>
+                    </div>
+                    
+                     <div>
+                     	<img u="image" src2="images/banner/ban-2.jpg" alt=""/>
+                         <div data-u="caption" data-t="2" class="caption" id="cap-3" style="left: 90px;">
+                         	<h2>High Definition</h2><p class="sub">Aerial videos for marketing and events</p>
+                            <a href="#" class="more">Learn more
+                             	<span class="glyphicon glyphicon-chevron-right"></span>
+                             </a>
+                         </div>
+                     </div>                    
+                     
+                     <div>
+                     	<img u="image" src2="images/banner/ban-4.jpg" alt=""/>
+                        <div data-u="caption" data-t="3" class="caption" id="cap-4" style="left: 90px;">
+                         <h2>Efficient Capturing</h2><p class="sub">HD aerial night images and videos</p>
+                         <a href="#" class="more">Learn more
+                             	<span class="glyphicon glyphicon-chevron-right"></span>
+                             </a>
+                         </div>
+                     </div>
+                     
+                     <div>
+                     	<img u="image" src2="images/banner/ban-7.jpg" alt=""/>
+                        <div data-u="caption" data-t="4" class="caption" id="cap-5" style="left: 90px;">
+                         	<h2>Ultimate Reliability</h2><p class="sub">Drone solution, modeling the reality</p>                            
+                            <a href="#" class="more">Learn more
+                             	<span class="glyphicon glyphicon-chevron-right"></span>
+                             </a>
+                         </div>
+                     </div>
+                     
+                     <div>
+                     	<img u="image" src2="images/banner/ban-5.jpg" alt=""/>
+                        <div data-u="caption" data-t="5" class="caption" id="cap-6" style="left: 90px;">
+                         	<h2>Leading the future</h2><p class="sub"> of Cultural Heritage Documentation</p>
+                            <a href="#" class="more">Learn more
+                             	<span class="glyphicon glyphicon-chevron-right"></span>
+                             </a>
+                         </div>
+                     </div>
+                     
+                     <div>
+                     	<img u="image" src2="images/banner/ban-6.jpg" alt=""/>
+                        <div data-u="caption" data-t="6" class="caption" id="cap-7" style="left: 90px;">
+                         	<h2>Rapid Data modeling</h2><p class="sub">Setting proccess standards</p>
+                            <a href="#" class="more">Learn more
+                             	<span class="glyphicon glyphicon-chevron-right"></span>
+                             </a>
+                         </div>
+                     </div>
+                     
+                     <div>
+                     	<img u="image" src2="images/banner/ban-8.jpg" alt=""/>
+                        <div data-u="caption" data-t="7" class="caption" id="cap-8" style="left: 90px;">
+                         	<h2>Ultimate Reliable</h2><p class="sub">Drone solution, modeling the reality</p>
+                            <a href="#" class="more">Learn more
+                             	<span class="glyphicon glyphicon-chevron-right"></span>
+                             </a>
+                         </div>
+                     </div>
+                     
+				</div>
+                
+                <span u="arrowleft" class="jssora03l" style="top: 123px; left: 8px;"></span>
+        		<span u="arrowright" class="jssora03r" style="top: 123px; right: 8px;"></span>
+                
+                <!-- bullet navigator container -->
+                <div u="navigator" class="jssorb05" style="bottom: 16px; right: 6px;">
+                    <!-- bullet navigator item prototype -->
+                    <div u="prototype"></div>
+                </div>
+                
+        <!--#endregion Bullet Navigator Skin End -->
+		 <a style="display: none" href="http://www.jssor.com">Responsive Slider</a>
+    </div>
+   </div>
+ </div>
+
+<!--------------------------------------------------------- What we Do -->
+<div id="services"  class="container">
+	<div class="row">
+    	<div class="col-sm-4 col-xs-6 services-icon" >
+        	<a href="#" >
+            	<div class="service-img">
+        			<img src="images/icon-1.jpg" alt="" class="img-responsive center-block hvr-pop"/>
+                </div>
+                <div class="service-text hvr-bounce-to-right" >
+                	<h3>Surveying <br>& Mapping</h3>
+                	<p>Fast, Reliable and Accurate</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-4 col-xs-6 services-icon" >
+        	<a href="#">
+            	<div class="service-img">
+        			 <img src="images/icon-2.gif" alt="" class="img-responsive center-block hvr-pop" /> 
+                </div>
+                <div class="service-text hvr-bounce-to-right">
+                	<h3>Inspection <br>& Monitoring</h3>
+                	<p>Accessibility, Repeatable and High precision</p>
+                </div>
+            </a>
+   		</div>
+            
+        <div class="col-sm-4 col-xs-6 services-icon" >
+        	<a href="#">
+            	<div class="service-img">
+        			<img src="images/icon-3.gif" alt="" class="img-responsive center-block hvr-pop" /> 
+                </div>
+                <div class="service-text hvr-bounce-to-right">
+          			<h3>Surveillance<br>&nbsp;</h3>
+                    <p>Day & Night, Sophisticated Tracking and Endurance</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-sm-4 col-xs-6 services-icon" >
+            <a href="#">
+            	<div class="service-img">
+        			  <img src="images/icon-4.gif" alt="" class="img-responsive center-block hvr-pop" />
+                </div>
+                <div class="service-text hvr-bounce-to-right">
+                	<h3>UHD Still Images<br>&nbsp;</h3>
+                	<p>50MP, HDR and Pixel Sharp </p>
+                </div>
+           	</a>
+        </div>
+        
+        <div class="col-sm-4 col-xs-6 services-icon" >
+        	<a href="#">
+            	<div class="service-img">
+        			  <img src="images/icon-5.gif" alt="" class="img-responsive center-block hvr-pop" />
+                </div>
+                <div class="service-text hvr-bounce-to-right">
+                	<h3>HD Videos<br>&nbsp;</h3>
+                	<p>4k, 90fps and Stabilized</p>
+                </div>
+			</a>
+        </div>
+        <div class="col-sm-4 col-xs-6 services-icon" >
+            <a href="#">
+            <div class="service-img">
+        			  <img src="images/icon-6.gif" alt="" class="img-responsive center-block hvr-pop" />
+                </div>
+                <div class="service-text hvr-bounce-to-right">
+                	<h3>Visualization <br>& 3D Modeling</h3>
+                	<p>Immersive, Engaging and Realistic</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--------------------------------------------------------- Construction -->
+<div id="construction" class="container-fluid nopadding">
+    <article id="slide01" class="content-block">
+        <div class="bcg"></div>
+        <div class="col-sm-7"></div>
+         <div class="wrapper col-sm-4 nogutter">
+            <header class="slideInUp">
+                <h1>Construction Surveying Solution</h1>
+            </header>
+            <section>
+            <p class="slideInUp slideInUp2">Orthophoto mosaics, digital terrain models, CAD layer extraction, and 3D video fly-through.</p>
+                
+            </section>
+        </div> 
+    </article>
+</div>
+
+<!--------------------------------------------------------- Drones -->
+<div id="drones"  class="container" >
+	<div class="row">
+    <h2>FalconViz Drone System</h2>
+    	<div class="col-sm-3 drone" ><a href="#">
+        	<h3 class="title">HEXACOPTER</h3>
+        	<img src="images/octa.jpg" alt="" class="img-responsive center-block hvr-bob">
+            <h3>Portability and reliability</h3></a>
+        </div>
+        
+        <div class="col-sm-3 drone"><a href="#">
+	        <h3 class="title">QUADCOPTER</h3>
+        	<img src="images/HEXA.jpg" alt="" class="img-responsive center-block hvr-bob">
+            <h3>VISIONARY INTELLIGENCE</h3></a>
+        </div>
+        
+        <div class="col-sm-3 drone"><a href="#">
+	        <h3 class="title">Heavy lifting</h3>
+        	<img src="images/drone1.jpg" alt="" class="img-responsive center-block hvr-bob">
+            <h3>POWERFUL FLIGHT</h3></a>
+        </div>
+        
+        <div class="col-sm-3 drone"><a href="#">
+        	 <h3 class="title">Fixed Wing</h3>
+        	<img src="images/fixed.jpg" alt="" class="img-responsive center-block hvr-bob">
+            <h3>Mass capturing</h3></a>
+        </div>
+    </div>
+</div>
+
+<!--------------------------------------------------------- News - Project - Video -->
+<div id="parts" class="container-fluid">
+	<div class="row ">
+    	<div id="news" class="col-sm-4 hvr-trim">
+        	<a href="#">
+        		<div id="inner-news">
+                    <div class="text_wraper">
+                    </div>
+            	</div>	
+             </a>
+        </div>
+        
+        <div id="project" class="col-sm-4 hvr-trim">
+        	<a href="#">
+                <div id="inner-project">
+                </div>
+        	</a>
+        </div>
+        
+        <div id="video_wrapper" class="col-sm-4 ">
+            	<img src="images/video.jpg" alt="Video" id="video-img" style="width:100%; cursor:pointer;">
+        </div>
+	</div>
+</div>
+
+  <!-- Modal -->
+  <div id="popup">
+  	<div id="inner-vid">
+    	<iframe id="viVideo" src="https://player.vimeo.com/video/131402595?portrait=0" width="80%" height="80%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+  </div>
+  
+<!--------------------------------------------------------- Contact -->
+<div id="contact"  class="container-fluid" >
+	<div class="row">
+    	<div id="innerContact" class="container">
+        	<div class="row">
+    	<div class="col-sm-3" id="address">
+        	<h2>Contact us</h2>
+            <p>
+            	King Abdullah University of Science <br>and Technology<br>
+                Innovation Cluster 2<br>
+                Office 2265<br>
+                Thuwal 23955-6900<br>
+                Kingdom of Saudi Arabia<br><br>
+                Phone: +966 (0) 12 808-0465<br>
+                Email: <script type="text/javascript">goEml("info");</script>
+             </p>
+        </div>
+        
+        <div class="col-sm-4" >
+        	<h2>&nbsp;</h2>
+            <form role="form" class="form-horizontal"  method="POST" target="contact_resp" id="contact_form">
+               <!-- <input type="hidden" id="formType" name="formType" value="1">-->
+                <div class="form-group" id="contact-form">                        
+                    <div>
+                        <input type="text" required class="form-control" id="full_name" name="uname" placeholder="Full Name">
+                    </div>
+                    <div>
+                        <input type="email" required class="form-control" id="email" name="email" placeholder="E-mail">
+                    </div>
+                    <div>
+                         <textarea rows="4" required class="form-control" id="message" name="comment" placeholder="Message"></textarea>
+                    </div>
+                    
+                 </div>
+                  <div class="row">
+                        
+                        <div id="recaptcha0"></div>
+                        <div id="submit_container">
+                            <button type="submit" value="Submit" class="btn btn-primary" id="submit"> Submit </button>
+                         </div>
+                  </div>
+              </form>
+        </div>
+        
+          <div class="col-sm-5">
+        	<img src="images/map.jpg" width="100%" class="img-responsive center-block" alt="FalconViz Footprint" id="map">
+        </div>
+	</div>
+</div>
+</div>
+</div>
+
+
+<!-- InstanceEndEditable -->
+
+<!-- --------------------------------------------------------------------------------------- Footer Links -->
+<div id="footer-links-container">
+    <div id="footer-links" class="container">
+        <div class="row">
+            <div class="col-sm-2 col-xs-6">
+                <h4>SERVICES</h4>
+                    <ul>
+                        <li><a href="#">Surveying &amp; Mapping</a></li>
+                        <li><a href="#">Inspection &amp; Monitoring</a></li>
+                        <li><a href="#">Surveillance</a></li>
+                        <li><a href="#">HD Still Images</a></li>
+                        <li><a href="#">HD Videos</a></li>
+                        <li><a href="#">Visualization &amp; 3D Modeling</a></li>
+                    </ul>
+       	  </div>
+            
+            <div class="col-sm-2 col-xs-6">
+                <h4>Industries</h4>
+                <ul>
+                    <li><a href="construction.html">Construction & Real Estate </a></li>
+                    <li><a href="topography.html">Topographical Survey</a></li>
+                    <li><a href="corridor.html">Corridor Survey</a></li>
+                    <li><a href="mining.html">Mining & Aggregate Assessments</a></li>
+                    <li><a href="heritage.html">Cultural Heritage</a></li>
+                    <li><a href="flood.html">Flood Modelling & Analysis</a></li>
+                    <li><a href="slum.html">Land Abuse & Slum Development</a></li>
+                    <li><a href="soon.html">Urban Planning & Architecture</a></li>
+                    <li><a href="soon.html">Disaster Releif</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-sm-2 col-xs-6">
+                <h4>Drones </h4>
+                <ul>
+                	<li><a href="#">Hexacopter</a></li>
+                    <li><a href="#">Quadcopter</a></li>
+                    <li><a href="#">Heavy lifting</a></li>
+                    <li><a href="#">Fixed Wing</a></li>
+                </ul>
+            </div>
+            
+             <div class="col-sm-2 col-xs-6">
+                <h4>ABOUT</h4>
+                <ul>
+                    <li><a href="#">Who we are</a></li>
+                    <li><a href="#">Events and News</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Awards</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            
+          <!-- -------------------------------------------------- Social -->
+            <div id="social" class="col-sm-4 col-xs-12">
+                <div class="row">
+                	<div id="social-inner">
+                        <h4>KEEP IN TOUCH</h4>
+                        <a href="#" class="hvr-float-shadow" ><img src="images/face-b.png" alt="facebook" ></a>
+                        <a href="#" class="hvr-float-shadow"><img src="images/twitter-b.png" alt="twitter"></a>
+                        <a href="#" class="hvr-float-shadow"><img src="images/youtube-b.png" alt="youtube"></a>                        <a href="#" class="hvr-float-shadow"><img src="images/linked-b.png" alt="linked"></a>
+                        <a href="#" class="hvr-float-shadow"><img src="images/pintrest.png" alt="pintrest"></a>
+                        
+                    </div>
+                 </div>
+                 
+                 <div class="row" id="privacy">
+                 	<div id="privacy-inner">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Site Map</a>      
+                    </div>                  
+                 </div>
+            </div>
+         </div>
+    </div>
+</div>
+
+<!-- --------------------------------------------------------------------------------------- Footer -->
+<footer class="container-fluid">
+	<div id="cpyrt">© 2014-2016, FalconViz - All Rights Reserved.</div>
+</footer>
+<script src="assets/lightbox.min.js"></script>
+</body>
+<!-- InstanceEnd --></html>

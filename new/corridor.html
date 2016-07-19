@@ -1,0 +1,475 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/temp.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Falconviz, KSA, drones, point cloud, 3D, surveying">
+    <meta name="description" content="Falconviz description.">
+    <!-- X6 <base href="localhost/falconviz/" >-->
+    
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Corridor Survey - Industries - Falconviz</title>
+    <link href="assets/css/lightbox.css" rel="stylesheet" type="text/css">
+    <!-- InstanceEndEditable -->
+    <script src="assets/jquery/jquery-2.2.3.min.js"></script>
+    <script src="assets/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <!--<script src="../assets/jssor/jssor.slider.mini.js"></script>-->
+    <script src="assets/scrollMagic/plugins/greensock/TweenMax.min.js"></script>
+    <script src="assets/scrollMagic/ScrollMagic.min.js"></script>
+    <script src="assets/scrollMagic/plugins/animation.gsap.min.js"></script>
+	<script src="assets/scrollMagic/plugins/debug.addIndicators.min.js"></script>
+    <script src="assets/main.js"></script>      
+    <!--<script src="../assets/lightbox.min.js"></script>-->
+
+	<link href="assets/css/hover.css" rel="stylesheet" type="text/css">
+    <link href="assets/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+    
+	<link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+</head>
+
+<body>
+<nav class="navbar navbar-default megamenu">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-collapse">
+          <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+          <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img src="images/logo.png" width="220" alt="FalconViz logo"></a> 
+    </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="main-collapse">
+      <ul class="nav navbar-nav" id ="main_menu">
+        <li class="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Services 
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu" >
+            <li><a href="srv_surveying.html">Surveying & Mapping</a></li>
+            <li><a href="#">Inspection & Monitoring</a></li>
+                    <li><a href="#">Surveillance</a></li>
+                    <li><a href="#">HD Still Images</a></li>
+                    <li><a href="#">HD Videos</a></li>
+            <li><a href="#">Visualization & 3D Modeling</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Industries 
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+                <li><a href="construction.html">Construction & Real Estate </a></li>
+                <li><a href="topography.html">Topographical Survey</a></li>
+                <li><a href="corridor.html">Corridor Survey</a></li>
+            	<li><a href="mining.html">Mining & Aggregate Assessments</a></li>
+                <li><a href="heritage.html">Cultural Heritage</a></li>
+                <li><a href="flood.html">Flood Modelling & Analysis</a></li>
+            	<li><a href="slum.html">Land Abuse & Slum Development</a></li>
+<!--            	<li><a href="soon.html">Geology & Prospection</a></li>
+                <li><a href="soon.html">Oil & Gas</a></li>
+                <li><a href="soon.html">Agriculture</a></li>
+                <li><a href="soon.html">Maintenance</a></li>-->
+                <li><a href="soon.html">Urban Planning & Architecture</a></li>
+<!--            <li><a href="soon.html">Marketing & Events</a></li>
+                <li><a href="soon.html">Forensics & Investigation</a></li>-->
+                <li><a href="soon.html">Disaster Releif</a></li>
+          </ul>
+        </li>
+        <li class="dropdown megamenu-fw">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Drones 
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu megamenu-content" role="menu">
+                <li>
+                  <div class="row">
+                    <div class="col-sm-1"></div>
+                    
+                    <div class="col-sm-2">
+                     <!-- <ul class="nav tab-hover .nav-stacked .nav-justified">-->
+                      <ul class="nav nav-pills .nav-stacked .nav-justified">
+                        <li class="active"><a data-toggle="tab" href="#menu1">Hexacopter</a></li>
+                        <li><a data-toggle="tab" href="#menu2">Quadcopter</a></li>
+                        <li><a data-toggle="tab" href="#menu3">Heavy lifting</a></li>
+                        <li><a data-toggle="tab" href="#menu4">Fixed wing</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-7">
+                      <div class="tab-content">
+                        <div id="menu1" class="tab-pane fade in active">
+                          <div class="col-sm-4">
+                            <h3>Hexacopter</h3>
+                           Portability and reliability   <br><br><br>
+
+							<a href="copter-1.html" class="btn btn-primary bottom-column" role="button">Learn more</a>
+                          </div>
+                          <figure class="product-pic col-sm-8">
+                            <a href="#"><img dui-pc-data-layzr="images/drone1.jpg" src="images/drone1.jpg"></a>
+                          </figure>
+                        </div>
+                        
+                        <div id="menu2" class="tab-pane fade">
+                            <div class="col-sm-4">
+                                <h3>Quadcopter</h3>
+                               VISIONARY INTELLIGENCE<br><br><br>
+                               <a href="copter-1.html" class="btn btn-primary bottom-column" role="button">Learn more</a>
+                          </div>
+                              <figure class="product-pic col-sm-8">
+                                <a href="#"><img dui-pc-data-layzr="images/drone2.jpg" src="images/drone2.jpg"></a>
+                               
+                              </figure>
+                        </div>
+                        
+                        <div id="menu3" class="tab-pane fade">
+                            <div class="col-sm-4">
+                                <h3>Fixed wing</h3>
+                                 Mass capturing<br><br><br> 
+                                 <a href="#" class="btn btn-primary bottom-column" role="button">Learn more</a>
+                          </div>
+                              <figure class="product-pic col-sm-8">
+                                <a href="#"><img dui-pc-data-layzr="images/drone3.jpg" src="images/drone3.jpg"></a>
+                               
+                              </figure>                  
+                        </div>
+                        
+                        <div id="menu4" class="tab-pane fade">
+                            <div class="col-sm-4">
+                                <h3>Heavy Lifting</h3>
+                                 POWERFUL FLIGHT<br><br><br>
+                                 <a href="#" class="btn btn-primary bottom-column" role="button">Learn more</a>
+                          </div>
+                              <figure class="product-pic col-sm-8">
+                                <a href="#"><img dui-pc-data-layzr="images/drone4.jpg" src="images/drone4.jpg" alt=""></a>
+                                
+                              </figure>                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About 
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+                <li><a href="who.html">Who we are</a></li>
+                <!--<li><a href="#">Events and News</a></li>-->
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">En 
+            <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">English</a></li>
+                <li><a href="#">عربى</a></li>
+              </ul>
+        </li>
+      </ul>
+      
+      <span class="glyphicon glyphicon-search" aria-hidden="true" id="top-search-icon"></span>
+      <form class="navbar-form navbar-right" role="search" id="top-search" action="search.html">
+        <div class="form-group">
+       <script>
+		  (function() {
+			var cx = '009165951042105012354:-7of4njhh_a';
+			var gcse = document.createElement('script');
+			gcse.type = 'text/javascript';
+			gcse.async = true;
+			gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(gcse, s);
+		  })();
+		</script>
+		<gcse:search></gcse:search>
+
+        <!--  <input type="text" class="form-control" placeholder="Search">       
+          <input type="text" name="q" id="tipue_search_input" autocomplete="off" required placeholder="Search"  class="form-control">--> 
+        </div>
+       <!-- <button type="submit" class="btn btn-default">Search</button>-->
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<!-- InstanceBeginEditable name="main" -->
+
+ <!--------------------------------------------------------- Banner -->
+<div id="banner_container-fluid" class="container-fluid no-gutter">
+	<div class="row">
+  		<img src="images/ban_corridor.jpg" class="inner_banner no-gutter" alt="">        
+    </div>
+</div>
+
+<div id="inner_page_title" class="container">
+	<div class="inner_page_title"><h1>Corridor Survey</h1></div>
+</div>
+
+<!--------------------------------------------------------- Breadcrumb -->
+<div class="container" id="breadcrumb">
+	<a href="index.html">Home</a>
+    <span class="slash">&nbsp;/&nbsp;</span>
+    <a href="index.html">Industries</a>
+     <span class="slash">&nbsp;/&nbsp;</span>
+    <span class="current_bread">Corridor Survey</span>
+</div>
+
+<!-- ------------------------------------------------------- Main  -->
+<div id="main_sec" class="container">
+	<div class="row">
+        <div class="col-sm-8">
+            <div class="inner-main-content">
+           FalconViz Corridor Survey uses our FVJET high endurance fixed-wing plane. The FVJET plane has a flight time 2X-3X as long as most “off-the-shelf” UAVs on the market. A typical flight on average is able to cover a distance of 75km with a cross width of 125m. Additionally, the camera system achieves 20MP images achieving ground sampling density up to 2.0cm/pixel and vertical accuracy of 3.5cm. The efficiency of the UAV allows consistent flight over corridors for an entire day allowing kilometers of area to be scanned each day. The FVJET flies autonomously a set path over the center of the corridor. This allows for any wide highway and all associated buildings, intersections, rest stops, gas stations to be efficiently captured. FalconViz Corridor Survey is a proven technology employed throughout KSA since 2014 (See examples below).<br>
+<br>
+
+The plane captures 2 images each second achieving on average 5,000-8,000 images per flight. Multiple flights are conducted each day in order to cover large corridor lengths efficiently. Each day all captured data is stored on a secure FalconViz server for processing. The images are processed using AerialSfM a proprietary software created by FalconViz LLC that generates accurate Image Mosaics, Digital Elevation Models, and full 3D X,Y,Z measurements. The aerial scans are geo-referenced and ground-truthed by recorded ground control points accurate to 1.0cm distributed across the length of the corridor to ensure specified control accuracy (5-10cm) is maintained through the entire survey. The outputted results are verified by our Geodesic Engineers and submitted as final digital deliverables. Early results of the ongoing scans and CAD survey are submitted to the client on a regular basis so that they can monitor progress.<br>
+<br>
+
+FalconViz Corridor Surveys are the only technology that can fully deliver high definition 3D maps without occlusion. What sets it apart from Mobile Mapping is the ability to produce complete top-down and side views in full 3D maps that can be directly loaded into ESRI ArcGIS and AutoCAD software. Vehicle ground-based mobile mapping only scans uncolored points and poorly captures side images. It cannot capture well the road or main elements which include highly occluded facades. If there is any traffic many areas will be poorly captured. Unlike ground based mobile mapping, FalconViz Corridor Surveys are captured from the air allowing all areas to be captured from many different angles. It captures true colored 3D meshes that directly correspond to orthorectified GIS maps. This format allows the optimal production of GIS maps for building route designs. Since FalconViz is able to capture from the air it is able to capture the road and the entire set of side roads and main elements such as the following:<br><br>
+
+
+<ul>
+    <li>High way graphs</li>
+    <li>Crossing roads</li>
+    <li>Bridges</li>
+    <li>Culverts</li>
+    <li>Crossings</li>
+    <li>Main elements ( petrol stations- main bld.-etc..)</li>
+    <li>Wadis</li>
+    <li>City street levels</li>
+</ul>
+<br>
+
+        <iframe src="https://player.vimeo.com/video/105129646" width="640" height="358" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="center-block"></iframe>
+
+
+
+            </div>
+            
+            <!-- ------------------------------------------------------------------------------- Deliverables --->
+    <div class="row" id="deliverables_head">
+        <div class="col-sm-12">
+            <h3>Deliverables</h3>
+        </div>
+     </div>
+     
+    <div class="row" id="deliverables">
+        <div class="col-sm-6 ">
+            <ul>
+                <li>High resolution images and Master Maps (geotiff format for use in ArcGIS)</li>
+                <li>3D survey points in AutoCAD/ESRI Shapefile</li>
+                <li>TIN mesh (dxf/obj/ply, ESRI TIN) </li>                
+                 <li>Gridded ASC DTM (0.5x0.5 m cell resolution, ESRI Raster Format) </li>
+            </ul>
+        </div>
+        
+        <div class="col-sm-6 ">
+            <ul>
+               <li>Digital Elevation Model (DEM)</li>
+                <li>1m 3D contour lines (dxf/dwg-AutoCAD/ESRI Shapefile)</li>
+                <li>3D Flythrough</li>
+                <li>3D Visualization in AerialSfM Lite and FalconVR</li>
+            </ul>
+        </div>
+    </div>
+ </div>
+         <div class="col-sm-4">
+            <div class="points ">
+                <ul>
+                    <li>Accuracy up to 0.5cm in X,Y,Z</li>
+                    <li>500,000 m2 / 20 Km2 per day</li>
+                    <li>No gaps, holes, or occluded surfaces</li>
+                    <li>Sub-centimeter ground control verification points</li>
+                    <li>Complete digital capture representation of designated area</li>
+                </ul>    
+            </div>
+            
+             <div id="getQuote-but"><a href="quotation.html">GET QUOTE</a></div>
+        </div>
+	</div>
+    
+     <!-- ------------------------------------------------------------------------------- Clients --->
+     <div class="row" id="clients_head">
+        <div class="col-sm-12 ">
+            <h3>Clients</h3>
+        </div>
+     </div>
+     
+    <div class="row" id="clients">
+        <div class="col-sm-2  col-xs-6">
+            <img src="images/kaust-logo-400.jpg" alt="KAUST">
+        </div>
+        <div class="col-sm-2 col-xs-6">
+            <img src="images/hyder_logo_400.jpg" alt="Hyder Consultants">
+        </div>
+        <div class="col-sm-2 col-xs-6">
+            <img src="images/lafrag_logo_400.jpg" alt="LAFRAG">
+        </div>
+        <div class="col-sm-2 col-xs-6">
+            <img src="images/SEC_logo_400.jpg" alt="Saudi Electricity Company">
+        </div>
+        <div class="col-sm-2 col-xs-6">
+            <img src="images/aecom_logo_400.jpg" alt="AECOM">
+        </div>
+     </div>
+    
+    <!-- ------------------------------------------------------------------------------- bottom images --->
+        <div class="row" id="img_head">
+        <div class="col-sm-12">
+            <h3>Samples</h3>
+        </div>
+     </div>
+     <br>
+    
+      <div class="row" id="const_bootom" >
+      	<img src="images/corridor-4.jpg" width="90%" alt="" class=" center-block" alt="Corridor">
+		<h3 class="text-center">Curved mountainous corridor scan representing a small 2km segment of a much larger study</h3>
+      </div>
+      
+    <div class="row" id="const_bootom" >
+    	<div class="col-sm-3  col-xs-6">
+        	<div>
+                <a class="example-image-link" href="images/big/corridor-1.jpg" data-lightbox="const" data-title="Road corridor survey of Jeddah flooded intersection (2015)">
+     			<img class="example-image services_img" src="images/corridor-1.jpg" alt="Road corridor survey of Jeddah flooded intersection (2015)"/></a>
+            </div>
+				<h3>Road corridor survey of Jeddah flooded intersection (2015)</h3>
+        </div>
+        
+        <div class="col-sm-3 col-xs-6">
+        	<div>
+                <a class="example-image-link" href="images/big/corridor-2.jpg" data-lightbox="const" data-title="HD image captured from Falconviz UAV">
+     			<img class="example-image services_img" src="images/corridor-2.jpg" alt="HD image captured from Falconviz UAV"/></a>
+            </div>
+				<h3>HD image captured from Falconviz UAV</h3>
+        </div>
+        
+        <div class="col-sm-3 col-xs-6">
+        	<div>
+                <a class="example-image-link" href="images/big/topography-3.jpg" data-lightbox="const" data-title=" closeup of a raw pointcloud generated from our survey">
+     			<img class="example-image services_img" src="images/topography-3.jpg" alt=" closeup of a raw pointcloud generated from our survey"/></a>
+            </div>
+				<h3>A closeup of a raw pointcloud generated from our survey</h3>
+        </div>
+        
+        <div class="col-sm-3 col-xs-6">
+        	<div>
+                <a class="example-image-link" href="images/big/corridor-5.jpg" data-lightbox="const" data-title="A typical flight is able to cover a distance of 75km with a 125m width">
+     			<img class="example-image services_img" src="images/corridor-5.jpg" alt="A typical flight is able to cover a distance of 75km with a 125m width"/></a>                
+            </div>
+				<h3>A typical flight is able to cover a distance of 75km with a 125m width</h3>
+        </div>
+    </div>
+    
+    <div class="row" >
+    	<div class="col-xs-12">
+        	<img src="images/corridor-3.jpg" class="img-responsive center-block" alt="Corridor"><br>
+<div class="text-center">High definition orthophoto in top-down map view for use in ArcGIS</div>
+        </div>
+    </div>
+    
+</div>
+<br>
+<br>
+
+
+<!-- InstanceEndEditable -->
+
+<!-- --------------------------------------------------------------------------------------- Footer Links -->
+<div id="footer-links-container">
+    <div id="footer-links" class="container">
+        <div class="row">
+            <div class="col-sm-2 col-xs-6">
+                <h4>SERVICES</h4>
+                    <ul>
+                        <li><a href="#">Surveying &amp; Mapping</a></li>
+                        <li><a href="#">Inspection &amp; Monitoring</a></li>
+                        <li><a href="#">Surveillance</a></li>
+                        <li><a href="#">HD Still Images</a></li>
+                        <li><a href="#">HD Videos</a></li>
+                        <li><a href="#">Visualization &amp; 3D Modeling</a></li>
+                    </ul>
+       	  </div>
+            
+            <div class="col-sm-2 col-xs-6">
+                <h4>Industries</h4>
+                <ul>
+                    <li><a href="construction.html">Construction & Real Estate </a></li>
+                    <li><a href="topography.html">Topographical Survey</a></li>
+                    <li><a href="corridor.html">Corridor Survey</a></li>
+                    <li><a href="mining.html">Mining & Aggregate Assessments</a></li>
+                    <li><a href="heritage.html">Cultural Heritage</a></li>
+                    <li><a href="flood.html">Flood Modelling & Analysis</a></li>
+                    <li><a href="slum.html">Land Abuse & Slum Development</a></li>
+                    <li><a href="soon.html">Urban Planning & Architecture</a></li>
+                    <li><a href="soon.html">Disaster Releif</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-sm-2 col-xs-6">
+                <h4>Drones </h4>
+                <ul>
+                	<li><a href="#">Hexacopter</a></li>
+                    <li><a href="#">Quadcopter</a></li>
+                    <li><a href="#">Heavy lifting</a></li>
+                    <li><a href="#">Fixed Wing</a></li>
+                </ul>
+            </div>
+            
+             <div class="col-sm-2 col-xs-6">
+                <h4>ABOUT</h4>
+                <ul>
+                    <li><a href="#">Who we are</a></li>
+                    <li><a href="#">Events and News</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Awards</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            
+          <!-- -------------------------------------------------- Social -->
+            <div id="social" class="col-sm-4 col-xs-12">
+                <div class="row">
+                	<div id="social-inner">
+                        <h4>KEEP IN TOUCH</h4>
+                        <a href="#" class="hvr-float-shadow" ><img src="images/face-b.png" alt="facebook" ></a>
+                        <a href="#" class="hvr-float-shadow"><img src="images/twitter-b.png" alt="twitter"></a>
+                        <a href="#" class="hvr-float-shadow"><img src="images/youtube-b.png" alt="youtube"></a>                        <a href="#" class="hvr-float-shadow"><img src="images/linked-b.png" alt="linked"></a>
+                        <a href="#" class="hvr-float-shadow"><img src="images/pintrest.png" alt="pintrest"></a>
+                        
+                    </div>
+                 </div>
+                 
+                 <div class="row" id="privacy">
+                 	<div id="privacy-inner">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Site Map</a>      
+                    </div>                  
+                 </div>
+            </div>
+         </div>
+    </div>
+</div>
+
+<!-- --------------------------------------------------------------------------------------- Footer -->
+<footer class="container-fluid">
+	<div id="cpyrt">© 2014-2016, FalconViz - All Rights Reserved.</div>
+</footer>
+<script src="assets/lightbox.min.js"></script>
+</body>
+<!-- InstanceEnd --></html>
