@@ -78,6 +78,11 @@ body {
 	/*margin-top:1px;*/
 	width:300px;
 }
+
+#menu_drones img{
+	width:230px;
+}
+
 /* ****************************************************** top search **** */
 .cse .gsc-control-cse, .gsc-control-cse {
     padding: 0.2em !important;
@@ -844,11 +849,11 @@ input.gsc-search-button-v2 {
 	/*height:300px;	*/
 }
 
-#const_bootom {
+#const_bootom, #const_bootom2 {
 	margin-bottom:4em;
 }
 
-#const_bootom h3{
+#const_bootom h3, #const_bootom2 h3{
 	text-align:center;
 	font-size:15px;
 }
@@ -861,11 +866,11 @@ input.gsc-search-button-v2 {
 	color:#707473;
 }
 
-#deliverables_head, #clients_head {
+#deliverables_head, #clients_head, #image_head {
 	color:#707473;	
 }
 
-#deliverables_head h3, #clients_head h3 {
+#deliverables_head h3, #clients_head h3, #image_head h3{
 	color:#139F4C;
 	border-bottom:rgba(197,203,204,0.7) 1px solid;
 	margin-bottom:20px;
