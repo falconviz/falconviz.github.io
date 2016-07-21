@@ -1,0 +1,467 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/temp.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Falconviz, KSA, drones, point cloud, 3D, surveying">
+    <meta name="description" content="Falconviz description.">
+    <!-- X6 <base href="localhost/falconviz/" >-->
+    
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Falconviz - Drones - Fixed Wing</title>
+    
+    <link href="assets/css/lightbox.css" rel="stylesheet" type="text/css">
+
+    <!-- InstanceEndEditable -->
+    <script src="assets/jquery/jquery-2.2.3.min.js"></script>
+    <script src="assets/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <!--<script src="../assets/jssor/jssor.slider.mini.js"></script>-->
+    <script src="assets/scrollMagic/plugins/greensock/TweenMax.min.js"></script>
+    <script src="assets/scrollMagic/ScrollMagic.min.js"></script>
+    <script src="assets/scrollMagic/plugins/animation.gsap.min.js"></script>
+	<script src="assets/scrollMagic/plugins/debug.addIndicators.min.js"></script>
+    <script src="assets/main.js"></script>      
+    <!--<script src="../assets/lightbox.min.js"></script>-->
+
+	<link href="assets/css/hover.css" rel="stylesheet" type="text/css">
+    <link href="assets/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+    
+	<link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+</head>
+
+<body>
+<nav class="navbar navbar-default megamenu">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-collapse">
+          <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+          <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img src="images/logo.png" width="220" alt="FalconViz logo"></a> 
+    </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="main-collapse">
+      <ul class="nav navbar-nav" id ="main_menu">
+        <li class="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Services 
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu" >
+            <li><a href="srv_surveying.html">Surveying & Mapping</a></li>
+            <li><a href="srv_inspection.html">Inspection & Monitoring</a></li>
+            <li><a href="surveillance.html">Surveillance</a></li>
+            <li><a href="hd-images.html">HD Still Images</a></li>
+            <li><a href="hd-videos.html">HD Videos</a></li>
+            <li><a href="3d.html">Visualization & 3D Modeling</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Industries 
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+                <li><a href="construction.html">Construction & Real Estate </a></li>
+                <li><a href="topography.html">Topographical Survey</a></li>
+                <li><a href="corridor.html">Corridor Survey</a></li>
+            	<li><a href="mining.html">Mining & Aggregate Assessments</a></li>
+                <li><a href="heritage.html">Cultural Heritage</a></li>
+                <li><a href="flood.html">Flood Modelling & Analysis</a></li>
+            	<li><a href="slum.html">Land Abuse & Slum Development</a></li>
+<!--            	<li><a href="soon.html">Geology & Prospection</a></li>
+                <li><a href="soon.html">Oil & Gas</a></li>
+                <li><a href="soon.html">Agriculture</a></li>
+                <li><a href="soon.html">Maintenance</a></li>-->
+                <li><a href="urban.html">Urban Planning & Architecture</a></li>
+<!--            <li><a href="soon.html">Marketing & Events</a></li>
+                <li><a href="soon.html">Forensics & Investigation</a></li>-->
+                <li><a href="relife.html">Disaster Relife</a></li>
+          </ul>
+        </li>
+        <li class="dropdown megamenu-fw">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Drones 
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu megamenu-content" role="menu">
+                <li>
+                  <div class="row">
+                    <div class="col-sm-1"></div>
+                    
+                    <div class="col-sm-2">
+                     <!-- <ul class="nav tab-hover .nav-stacked .nav-justified">-->
+                      <ul class="nav nav-pills .nav-stacked .nav-justified">
+                        <li class="active"><a data-toggle="tab" href="#menu1">Hexacopter</a></li>
+                        <li><a data-toggle="tab" href="#menu2">Quadcopter</a></li>
+                        <li><a data-toggle="tab" href="#menu3">Heavy lifting</a></li>
+                        <li><a data-toggle="tab" href="#menu4">Fixed wing</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-7">
+                      <div class="tab-content" id="menu_drones">
+                        <div id="menu1" class="tab-pane fade in active">
+                          <div class="col-sm-4">
+                            <h3>Hexacopter</h3>
+                           Portability and reliability   <br><br><br>
+							<a href="hexa.html" class="btn btn-primary bottom-column" role="button">Learn more</a>
+                          </div>
+                          <figure class="product-pic col-sm-8">
+                            <a href="hexa"><img dui-pc-data-layzr="images/HEXA.jpg" src="images/HEXA.jpg"></a>
+                          </figure>
+                        </div>
+                        
+                        <div id="menu2" class="tab-pane fade">
+                            <div class="col-sm-4">
+                                <h3>Quadcopter</h3>
+                               VISIONARY INTELLIGENCE<br><br><br>
+                               <a href="quad.html" class="btn btn-primary bottom-column" role="button">Learn more</a>
+                          	</div>
+                              <figure class="product-pic col-sm-8">
+                                <a href="quad.html"><img dui-pc-data-layzr="images/octa.jpg" src="images/octa.jpg"></a>
+                              </figure>
+                        </div>
+                        
+                        <div id="menu3" class="tab-pane fade">
+                            <div class="col-sm-4">
+                                 <h3>Heavy Lifting</h3>
+                                 POWERFUL FLIGHT<br><br><br>
+                                 <a href="heavy.html" class="btn btn-primary bottom-column" role="button">Learn more</a>
+                          	</div>
+                              <figure class="product-pic col-sm-8">
+                                <a href="heavy.html"><img dui-pc-data-layzr="images/drone1.jpg" src="images/drone1.jpg"></a>
+                              </figure>                  
+                        </div>
+                        
+                        <div id="menu4" class="tab-pane fade">
+                            <div class="col-sm-4">
+                            <h3>Fixed wing</h3>
+                                 Mass capturing<br><br><br> 
+                                 <a href="fixed.html" class="btn btn-primary bottom-column" role="button">Learn more</a>
+                          	</div>
+                              <figure class="product-pic col-sm-8">
+                                <a href="fixed.html">
+                                <img dui-pc-data-layzr="images/fixed.jpg" src="images/fixed.jpg" alt=""></a>
+                              </figure>                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About 
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+                <li><a href="who.html">Who we are</a></li>
+                <!--<li><a href="#">Events and News</a></li>-->
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">En 
+            <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">English</a></li>
+                <li><a href="#">عربى</a></li>
+              </ul>
+        </li>
+      </ul>
+      
+      <span class="glyphicon glyphicon-search" aria-hidden="true" id="top-search-icon"></span>
+      <form class="navbar-form navbar-right" role="search" id="top-search" action="search.html">
+        <div class="form-group">
+       <script>
+		  (function() {
+			var cx = '009165951042105012354:-7of4njhh_a';
+			var gcse = document.createElement('script');
+			gcse.type = 'text/javascript';
+			gcse.async = true;
+			gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(gcse, s);
+		  })();
+		</script>
+		<gcse:search></gcse:search>
+
+        <!--  <input type="text" class="form-control" placeholder="Search">       
+          <input type="text" name="q" id="tipue_search_input" autocomplete="off" required placeholder="Search"  class="form-control">--> 
+        </div>
+       <!-- <button type="submit" class="btn btn-default">Search</button>-->
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<!-- InstanceBeginEditable name="main" -->
+
+ <!-- ------------------------------------------------------- Banner -->
+<div id="banner_container-fluid" class="container-fluid no-gutter">
+	<div class="row">
+  		<img src="images/fixed_banner.jpg" class="inner_banner no-gutter" alt="Fixed wing">        
+    </div>
+</div>
+
+<div id="inner_page_title" class="container">
+	<div class="inner_page_title"><h1>Falconviz Drones</h1></div>
+</div>
+
+<!-- ------------------------------------------------------- Breadcrumb -->
+<div class="container" id="breadcrumb">
+	<a href="index.html">Home</a>
+    <span class="slash">&nbsp;/&nbsp;</span>
+    <a>Drones</a>
+    <span class="slash">&nbsp;/&nbsp;</span>
+    <span class="current_bread">Fixed wing</span>
+</div>
+
+
+<div class="container">
+
+	<!-- ------------------------------------------------------- Hexa  -->
+	<div class="row" id="clients_head">
+        <div class="col-sm-12">
+            <h3>Hexacopter</h3>
+        </div>
+     </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+        	<br>
+               The FalconViz FVH850 drone is the backbone of our operations. Developed entirely at the FalconViz labs, it is designed for deployability, transportability, redundancy and ultimate scanning platform. Carrying full frames cameras, it is capable of achieving extremely high ground sampling density, ensuring high resolution and high precision models can be produced from every flight. <br><br>
+               
+Being a hexacopter, the FVH850 is capable of surviving a motor failure, making it very suitable for operations where safety is paramount. The drone is also completely autonomous, capable of auto-takeoff, auto-mission and auto-landing
+           </div>
+           <div class="col-sm-8">
+                <img src="images/hexa-main.jpg" class="img-responsive center-block" alt="Hexacopter"> 
+           </div>
+      </div>
+      
+      
+      <!-- ------------------------------------------------------- Quadcopter  -->
+	<div class="row" id="clients_head">
+        <div class="col-sm-12">
+            <h3>Quadcopter</h3>
+        </div>
+     </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+        	<br>
+               The FVMC4 was specifically designed for precision agriculture. Brining the camera in line with the centre of gravity has allowed for weight saving and less wind resistance. It is capable of lying an infrared and multi-spectral camera in tandem completely autonomously. The gimbal is designed to be easily switchable in the field in order to run multiple different setups without needing multiple copters or long downtimes.<br>
+<br>
+
+At the field, it is capable of flying for over 20 minutes when fully loaded with Optris PI Lightweight and a 6 band Tetracm multispectral camera.
+           </div>
+           <div class="col-sm-8">
+                <img src="images/quad-main.jpg" class="img-responsive center-block" alt="Quadcopter"> 
+           </div>
+      </div>
+      
+      
+       <!-- ------------------------------------------------------- Heavy  -->
+	<div class="row" id="clients_head">
+        <div class="col-sm-12">
+            <h3>Heavy Lifting</h3>
+        </div>
+     </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+        	<br>
+                The FalconViz FX4 Security & Emergency Response drone delivers a new precedent for autonomous surveillance. The FX4 is optimized for agility, endurance and ruggedness to handle the toughest environments. The high powered and efficient propulsion system allows for 15m/s flights covering a 1-2km radius. The automatic take-off and landing system allows for the FX4 to be launched from a command center and arrive at its point of interest within minutes. <br>
+<br>
+The ground breaking propulsion system allows for 30 minute flight times which is 2X the average flight time of most drones. The FX4 payload allows both day and night surveillance with both a 8K Day camera (42MP) and Flir Thermal IR night camera. The sturdy and efficient gimbal system allows for smooth video and image capture even in windy conditions. <br>
+<br>
+The FX4 is directly integrated with the FalconViz Ground Control Station that can be installed within any operating system so that responses can be coordinated between the security team and the drone. The FX4 can be automatically dispatched  to exact GPS locations of any security emergency or threat within a 1-2km radius. Once the FX4 arrives on the scene it can stream back live video to the command center during day or night.
+           </div>
+           <div class="col-sm-8">
+                <img src="images/quad-main.jpg" class="img-responsive center-block" alt="Quadcopter"> 
+                
+                      <div class="row">
+                    <br><br><br><br>
+                    <div class="row">
+                        <img src="images/cam-2.jpg" class="col-xs-4 col-xs-push-2 img-responsive" alt="">
+                        <img src="images/cam-1.jpg" class="col-xs-4  col-xs-push-2 img-responsive" alt=""><br>
+                    </div>
+                    <br>
+                    
+                    <div class="row">
+                        <div class="col-xs-5 col-xs-push-1 text-center">
+                            Raytrix 42MP 8K Camera 
+                        </div>
+                        <div class="col-xs-5 col-xs-push-1 text-center">
+                            FLIR VUE Thermal Camera <br><br><br><br>
+                        </div>
+                    </div>
+                    
+                  </div>
+                  
+           </div>
+      </div>
+      
+
+      
+       <div class="row" id="const_bootom" >
+    	<div class="col-sm-3 col-xs-6">
+        	<div>
+                 <a class="example-image-link" href="images/big/heavy-1.jpg" data-lightbox="const" data-title="...">
+     			<img class="example-image services_img" src="images/heavy-1.jpg" alt=".."/></a>
+            </div>
+        </div>
+        
+        <div class="col-sm-3 col-xs-6">
+        	<div>
+                 <a class="example-image-link" href="images/big/heavy-2.jpg" data-lightbox="const" data-title="...">
+     			<img class="example-image services_img" src="images/heavy-2.jpg" alt=".."/></a>
+            </div>
+        </div>
+        
+        <div class="col-sm-3 col-xs-6">
+        	<div>
+                 <a class="example-image-link" href="images/big/heavy-3.jpg" data-lightbox="const" data-title="...">
+     			<img class="example-image services_img" src="images/heavy-3.jpg" alt=".."/></a>
+            </div>
+        </div>
+        
+        <div class="col-sm-3 col-xs-6">
+        	<div>
+                 <a class="example-image-link" href="images/big/heavy-4.jpg" data-lightbox="const" data-title="...">
+     			<img class="example-image services_img" src="images/heavy-4.jpg" alt=".."/></a>
+            </div>
+        </div>
+    </div>
+    
+    
+     <!-- ------------------------------------------------------- FIXED  -->
+    
+    <div class="row" id="clients_head">
+        <div class="col-sm-12">
+            <h3>Fixed Wing</h3>
+        </div>
+     </div>
+     
+   <div id="main_sec" class="container">
+	<div class="row">
+
+  
+        <div class="col-sm-4">
+            <div class="inner-main-content"> 
+           The FVJet is optimized for scanning large areas. With an average autonomy of 90 minutes, the FVJet can cover over 3km² in a single flight at 2.5cm resolution flying for over 70km in a single flight. The mission trajectory is pre-programmed in order to achieve the best coverage, this also ensures that all future visits to the site cover exactly the same area.<br>
+<br>
+ This allows for 3D models to be compared over time and asses changes, be it stock piles, land abuse or renovation work on an asset.
+            </div>
+        <br><br><br><br>
+        </div>
+        
+         <div class="col-sm-8">
+    	  	<img src="images/fixed-main.jpg" class="img-responsive center-block" alt=""> 
+        </div>
+          
+     </div>
+</div>
+
+
+
+
+
+<!-- InstanceEndEditable -->
+
+<!-- --------------------------------------------------------------------------------------- Footer Links -->
+<div id="footer-links-container">
+    <div id="footer-links" class="container">
+        <div class="row">
+            <div class="col-sm-2 col-xs-6">
+                <h4>SERVICES</h4>
+                    <ul>
+                         <li><a href="srv_surveying.html">Surveying & Mapping</a></li>
+                        <li><a href="srv_inspection.html">Inspection & Monitoring</a></li>
+                        <li><a href="surveillance.html">Surveillance</a></li>
+                        <li><a href="hd-images.html">HD Still Images</a></li>
+                        <li><a href="..hd-videos.html">HD Videos</a></li>
+                        <li><a href="3d.html">Visualization & 3D Modeling</a></li>
+                    </ul>
+       	  </div>
+            
+            <div class="col-sm-2 col-xs-6">
+                <h4>Industries</h4>
+                <ul>
+                    <li><a href="construction.html">Construction & Real Estate </a></li>
+                    <li><a href="topography.html">Topographical Survey</a></li>
+                    <li><a href="corridor.html">Corridor Survey</a></li>
+                    <li><a href="mining.html">Mining & Aggregate Assessments</a></li>
+                    <li><a href="heritage.html">Cultural Heritage</a></li>
+                    <li><a href="flood.html">Flood Modelling & Analysis</a></li>
+                    <li><a href="slum.html">Land Abuse & Slum Development</a></li>
+                    <li><a href="urban.html">Urban Planning & Architecture</a></li>
+                    <li><a href="relife.html">Disaster Relife</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-sm-2 col-xs-6">
+                <h4>Drones </h4>
+                <ul>
+                	<li><a href="hexa.html">Hexacopter</a></li>
+                    <li><a href="octa.html">Quadcopter</a></li>
+                    <li><a href="heavy.html">Heavy lifting</a></li>
+                    <li><a href="fixed.html">Fixed Wing</a></li>
+                </ul>
+            </div>
+            
+             <div class="col-sm-2 col-xs-6">
+                <h4>ABOUT</h4>
+                <ul>
+                    <li><a href="who.html">Who we are</a></li>
+                    <li><a href="clients.html">Clients</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="career.html">Career</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+            
+          <!-- -------------------------------------------------- Social -->
+            <div id="social" class="col-sm-4 col-xs-12">
+                <div class="row">
+                	<div id="social-inner">
+                        <h4>KEEP IN TOUCH</h4>
+                        <a href="https://www.facebook.com/FalconVIZ-419092808193716/" class="hvr-float-shadow" target="_blank">
+                        	<img src="images/face-b.png" alt="facebook" ></a>
+                        <a href="https://twitter.com/falconviz" class="hvr-float-shadow" target="_blank">
+                        <img src="images/twitter-b.png" alt="twitter"></a>
+                       <!-- <a href="#" class="hvr-float-shadow"><img src="../images/youtube-b.png" alt="youtube"></a>-->                        <a href="https://www.linkedin.com/company/falconviz" class="hvr-float-shadow" target="_blank">
+                        	<img src="images/linked-b.png" alt="linked"></a>
+                       <!-- <a href="#" class="hvr-float-shadow"><img src="../images/pintrest.png" alt="pintrest"></a>-->
+                    </div>
+                 </div>
+                 
+                 <div class="row" id="privacy">
+                 	<div id="privacy-inner">
+                        <a href="privacy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms of Use</a>
+                        <a href="map.html">Site Map</a>      
+                    </div>                  
+                 </div>
+            </div>
+         </div>
+    </div>
+</div>
+
+<!-- --------------------------------------------------------------------------------------- Footer -->
+<footer class="container-fluid">
+	<div id="cpyrt">Copyright © 2014-2016, FalconViz - All Rights Reserved.</div>
+</footer>
+<script src="assets/lightbox.min.js"></script>
+</body>
+<!-- InstanceEnd --></html>
