@@ -10,7 +10,7 @@
     
     <!-- InstanceBeginEditable name="doctitle" -->
     <title>Get Quote - FalconViz</title>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8a1rk282OZ4Pfg3Ofq3aB1C3tvwAUbqo&libraries=drawing&callback=initMap" async defer></script>
+      <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8a1rk282OZ4Pfg3Ofq3aB1C3tvwAUbqo&libraries=drawing&callback=initMap" async defer></script>-->
    <style>
       html, body {
         height: 100%;
@@ -243,7 +243,6 @@ function Measure (mID){
 	this.line= null;
 	this.polygon= null;
 	this.mID = mID;
-	this.mapLabel = null;
 }
 
 	function initMap() {
@@ -436,7 +435,7 @@ function Measure (mID){
 			var area = google.maps.geometry.spherical.computeArea(measure.polygon.getPath())/1000000;
 			all_areas.push([area.toFixed(1), length.toFixed(1)]);
 			addRow(area.toFixed(1), length.toFixed(1) );
-			addAreaTxt(current_measure + 1, measure);	// R: adding polygon number (index + 1)
+			addAreaTxt(current_measure + 1);	// R: adding polygon number (index + 1)
 			resetArea();
 			row_num++;
 			Current();
@@ -448,13 +447,12 @@ function Measure (mID){
 		}
 	};
 	
-	function addAreaTxt (txt, mesr){   // mesr is the mesure object to add the label to
+	function addAreaTxt (txt){
 		//for var polygon
-		//var _label = new Label({ map: map, text: "Ramy", position: {lat: 24.3135744, lng: 42.8859215} , color: "#00FFFF" });
-		//_label.bindTo("zoom", map, "zoom");
+//var _label = new Label({ map: map, text: "Ramy", position: {lat: 24.3135744, lng: 42.8859215} , color: "#00FFFF" });
+//_label.bindTo("zoom", map, "zoom");
 
-		 //label: new MapLabel({
-			var mapLabel = new MapLabel({
+		label: new MapLabel({
 			text: txt,
 			position:  GetCenter(measure.polygon),// new google.maps.LatLng(24.3135744,42.8859215),//new google.maps.LatLng(object.lat, object.lng), // the lat/lng of location of the label.
 			fontSize: 28,
@@ -464,10 +462,6 @@ function Measure (mID){
 			zIndex:99999,
 			map: map   // The map object to place the label on
 		});
-		
-		console.log("b "+measure.mapLabel);		
-		measure.mapLabel = mapLabel;
-		console.log("a "+measure.mapLabel);	
 	}
 	
 	function GetCenter(plgn){
@@ -524,7 +518,7 @@ function Measure (mID){
 	}
 
 	function addRow(ar, ln){
-		var new_row ="<div class='row tableRow' id='row"+row_num+"'>";
+		var new_row ="<div class='row tableRow'>";
 		
 		new_row +="<div class='col-xs-1 text-center'>"+row_num+"</div>";
 		new_row +="<div class='col-xs-4'>"+ar+" km²</div>";
@@ -539,50 +533,10 @@ function Measure (mID){
 
 
 	function deleteArea (area_num){
-		// delete this area 
-		// update total
-		// update table 
-		// .setMap(null);
-		console.log("deleting: "+area_num +" - "+all_measures[area_num-1].polygon);
+	// delete this area 
+	// update total
+	// update table 
 		
-		var delMeasure = all_measures[area_num-1]
-
-				// If we have a polygon or a line, remove them from the map and set null
-		if (delMeasure.polygon) {
-			delMeasure.polygon.setMap(null);
-			delMeasure.polygon = null;
-		}
-		if (delMeasure.line) {
-			delMeasure.line.setMap(null);
-			delMeasure.line = null
-		}
-		
-		if(delMeasure.label){
-			delMeasure.label = null;
-		}
-	
-		// Empty the mvcLine and mvcPolygon MVCArrays
-		delMeasure.mvcLine.clear();
-		delMeasure.mvcPolygon.clear();
-	
-		// Loop through the markers MVCArray and remove each from the map, then empty it
-		// R: Noo keep the polyogon on the map
-		delMeasure.mvcMarkers.forEach(function(elem, index) {
-			elem.setMap(null);
-		});
-		
-		delMeasure.mvcMarkers.clear();
-		
-		// delete label		
-		delMeasure.mapLabel.setMap(null);// = null;
-		
-		// Delete row 
-		console.log("#row"+(area_num-1));
-		console.log(jQuery("#row"+(area_num-1)));
-		jQuery("#row"+(area_num-1)).remove();
-	
-		jQuery("#span-length, #span-area").text(0);
-	
 	}
 </script>
 
@@ -595,7 +549,7 @@ function Measure (mID){
 <fieldset>
 
 <!-- Form Name -->
-<legend>Please fill the following form</legend>
+<legend>Form Name</legend>
 
 <!-- Text input-->
 <div class="form-group">
