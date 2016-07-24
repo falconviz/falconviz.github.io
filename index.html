@@ -112,7 +112,7 @@
       </ul>
       
       <span class="glyphicon glyphicon-search" aria-hidden="true" id="top-search-icon"></span>
-      <form class="navbar-form navbar-right" role="search" id="top-search" action="search.html">
+      <form class="navbar-form navbar-right" role="search" id="top-search" >
         <div class="form-group">
        <script>
 		  (function() {
@@ -120,7 +120,7 @@
 			var gcse = document.createElement('script');
 			gcse.type = 'text/javascript';
 			gcse.async = true;
-			gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+			gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;			
 			var s = document.getElementsByTagName('script')[0];
 			s.parentNode.insertBefore(gcse, s);
 		  })();
@@ -408,9 +408,9 @@
     	<div class="col-sm-3" id="address">
         	<h2>Contact us</h2>
             <p>
-            	King Abdullah University of Science <br>and Technology<br>
+            	King Abdullah University <br>of Science and Technology<br>
                 Innovation Cluster 2<br>
-                Office 2265<br>
+                Office 2265<br><br>
                 Thuwal 23955-6900<br>
                 Kingdom of Saudi Arabia<br><br>
                 Phone: +966 (0) 12 808-0465<br>
@@ -418,9 +418,9 @@
              </p>
         </div>
         
-        <div class="col-sm-4" >
+        <div class="col-sm-4">
         	<h2>&nbsp;</h2>
-            <form role="form" class="form-horizontal"  method="POST" target="contact_resp" id="contact_form">
+            <form role="form" class="form-horizontal"  method="POST" target="contact_resp" id="contact_form"  style="display:none;">
                <!-- <input type="hidden" id="formType" name="formType" value="1">-->
                 <div class="form-group" id="contact-form">                        
                     <div>
@@ -522,13 +522,13 @@
                     </div>
                  </div>
                  
-                 <div class="row" id="privacy">
+                 <!--<div class="row" id="privacy">
                  	<div id="privacy-inner">
                         <a href="privacy.html">Privacy Policy</a>
                         <a href="terms.html">Terms of Use</a>
                         <a href="map.html">Site Map</a>      
                     </div>                  
-                 </div>
+                 </div>-->
             </div>
          </div>
     </div>
