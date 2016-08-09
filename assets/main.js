@@ -40,7 +40,6 @@ jQuery(document).ready(function(){
 		$(window).resize(function() {
 		
 		  var newWidth = $fluidEl.width();
-		console.log(newWidth);
 		  // Resize all videos according to their own aspect ratio
 		  $allVideos.each(function() {
 		
