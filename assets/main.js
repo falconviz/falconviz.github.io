@@ -13,14 +13,51 @@ jQuery(document).ready(function(){
 	$(document).off('click.bs.tab.data-api', '[data-hover="tab"]');
     $(document).on('mouseenter.bs.tab.data-api', '[data-toggle="tab"], [data-hover="tab"]', function () {
       $(this).tab('show');
+	});
+	
+	
+	  //----------- fix videos responsiveness
+	  
+			 // Find all YouTube videos
+		//var $allVideos = $("iframe[src~='//player.vimeo.com'], iframe[src~='//www.youtube.com']"),
+		var $allVideos = $(".vid2fix"),
+		 
+			// The element that is fluid width
+			$fluidEl =$("figure"); //$(".inner-main-content");
+			
+		// Figure out and save aspect ratio for each video
+		$allVideos.each(function() {
+		
+		  $(this)
+			.data('aspectRatio', this.height / this.width)
+		
+			// and remove the hard coded width/height
+			.removeAttr('height')
+			.removeAttr('width');
+		});
+		
+		// When the window is resized
+		$(window).resize(function() {
+		
+		  var newWidth = $fluidEl.width();
+		console.log(newWidth);
+		  // Resize all videos according to their own aspect ratio
+		  $allVideos.each(function() {
+		
+			var $el = $(this);
+			$el
+			  .width(newWidth)
+			  .height(newWidth * $el.data('aspectRatio'));
+		
+		  });
+		
+		// Kick off one resize to fix all videos on page load
+		}).resize();
+
+	  
     });
 	
-/*  $(".dropdown").hover(
-        function() { $('.dropdown-menu', this).fadeIn(300);
-        },
-        function() { $('.dropdown-menu', this).fadeOut(300);
-    });*/
-	
+
 	 
 
 	
@@ -106,7 +143,7 @@ jQuery(document).ready(function ($) {
             //responsive code end
 	 }
 	 
-        });
+        
 		
 
 		//------------------------------------------------------------------------------------------ Parallex
@@ -231,11 +268,51 @@ new ScrollMagic.Scene({
 
 	tween = TweenMax.to(box, 20, {x:"-50%", y:"-50%", width:"1900px", height:"1900px", repeat:-1, yoyo:true, repeatDelay:2, ease:Linear.easeNone});
 
+	var fileLocation = window.location.pathname;
+	var fileLocationArray = fileLocation.split('/');
+	
+   if(fileLocationArray[fileLocationArray.length-1]=== "quotation.html"){
+	   checkFile();
+   }
+//});
+
+//--------------------  check file upload
+function checkFile(){
+	//binds to onchange event of your input field
+	$('#fileup').bind('change', function() {
+	
+	  //this.files[0].size gets the size of the file.
+	  if(this.files[0].size >2097152){
+		// file is over 2M and this is not allowed
+		$("#warning").text("File size must not exceed 2Mb");  
+		
+	  }
+	});
+}
 
 
+	
+function gatherDelivrables(){
+	
+	console.log("change is here");
+	var deliv_data="";
 
-   
+	$(".deliverables").each(function() {
+		//console.log ("is checked: "+ $( this ).is(':checked'));
+		if( $( this ).is(':checked')){
+			deliv_data += $( this ).attr('value')+" - ";//+" \n\r ";
+			//deliv_data += $( this ).attr('value')+" \n\r ";
+		}
+	});
+
+	$('#deliv').attr('value', deliv_data) ;	
+	console.log(":: "+deliv_data);
+}
+
+ $(document).ready(function() {
+	 $(".deliverables").change(function() {
+		//console.log("change is here xx");
+		 gatherDelivrables();
+	});
+ });
 });
-
-
-
